@@ -6,7 +6,7 @@
 provstore-api
 ==========================================
 
-provstore-api is a python API client for `ProvStore <https://provenance.ecs.soton.ac.uk/store/>`_.
+provstore-api is a python API client for `ProvStore <https://openprovenance.org/store/>`_.
 
 Installation
 ------------

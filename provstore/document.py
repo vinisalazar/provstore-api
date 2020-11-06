@@ -119,7 +119,7 @@ class Document(object):
         Example::
           >>> api = Api()
           >>> api.document.get(148)
-          https://provenance.ecs.soton.ac.uk/store/api/v0/documents/148
+          https://openprovenance.org/store/api/v0/documents/148
           >>> api.id
           148
           >>> api.name
@@ -339,7 +339,7 @@ class Document(object):
 
         :Example:
           >>> stored_document.url
-          'https://provenance.ecs.soton.ac.uk/store/documents/148'
+          'https://openprovenance.org/store/documents/148'
         """
         if not self.abstract:
             return "%s/documents/%i" % ("/".join(self._api.base_url.split("/")[:-2]), self.id)

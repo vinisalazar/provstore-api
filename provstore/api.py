@@ -68,7 +68,7 @@ class Api(object):
                  base_url=None):
 
         if base_url is None:
-            self.base_url = 'https://provenance.ecs.soton.ac.uk/store/api/v0'
+            self.base_url = 'https://openprovenance.org/store/api/v0'
         else:
             self.base_url = base_url.rstrip('/')
 

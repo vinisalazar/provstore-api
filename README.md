@@ -1,7 +1,7 @@
 provstore-api [![PyPI version](https://badge.fury.io/py/provstore-api.svg)](http://badge.fury.io/py/provstore-api) [![Build Status](https://travis-ci.org/millar/provstore-api.svg?branch=master)](https://travis-ci.org/millar/provstore-api) [![Coverage Status](https://coveralls.io/repos/millar/provstore-api/badge.png)](https://coveralls.io/r/millar/provstore-api)
 =========
 
-Client for the [ProvStore](https://provenance.ecs.soton.ac.uk/store/)'s [API](https://provenance.ecs.soton.ac.uk/store/help/api/).
+Client for the [ProvStore](https://openprovenance.org/store/)'s [API](https://openprovenance.org/store/help/api/).
 
 ## Installation
 ```bash
@@ -16,7 +16,7 @@ To use the client import the API and configure your access credentials:
 ```python
 from provstore.api import Api
 
-# API key can be found at https://provenance.ecs.soton.ac.uk/store/account/developer/
+# API key can be found at https://openprovenance.org/store/account/developer/
 api = Api(userame="your_provstore_username", api_key="your_api_key")
 ```
 
